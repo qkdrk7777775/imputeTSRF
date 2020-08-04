@@ -4,9 +4,13 @@
 #' @param 'NAdata' is data with missing columns in multiple columns
 #' @export
 #' @examples
+#'
 #' # imputation value return
+#'
 #' impute=imputeTSRF(NAdata,return_kalman = T)
+#'
 #' # Performance evaluation is performed for cases where NAdata is missing for each column.
+#'
 #' idx1=impute_valid(data,impute[[1]],NAdata)
 
 imputeTSRF=function(NAdata,return_kalman=F,return_model=T,smooth=T,seed=1,...){

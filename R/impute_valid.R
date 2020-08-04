@@ -5,9 +5,13 @@
 #' @keywords subtract a from b
 #' @export
 #' @examples
+#'
 #' # imputation value return
+#'
 #' impute=imputeTSRF(NAdata,return_kalman = T)
+#'
 #' # Performance evaluation is performed for cases where NAdata is missing for each column.
+#'
 #' idx1=impute_valid(data,impute[[1]],NAdata)
 impute_valid=function(data,imputeData,NAdata,col_name=NULL){
   if(is.null(col_name)){
