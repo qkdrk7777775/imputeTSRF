@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^imputeTSRF\.Rproj$
+
+.gitignore
+README.md
+.Rhistory
+
